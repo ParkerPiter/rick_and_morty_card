@@ -4,7 +4,7 @@ import s from './Mostrar.module.css'
 
 const Mostrar = ({personajes}) =>{
     useEffect(() => {
-        document.body.style.backgroundImage = 'url(\'/src/img/wallpaperbetter.com_1920x1080 (1).jpg\')';
+        document.body.style.backgroundImage = 'url(\'/public/wallpaperbetter.com_1920x1080 (1).jpg\')';
         document.body.style.backgroundSize = '100%';
         document.body.style.backgroundPosition = 'center';
         document.body.style.backgroundRepeat = 'no-repeat';

@@ -4,7 +4,7 @@ import s from './Login.module.css';
 
 const Login = ({login})=>{
     useEffect(() => {
-        document.body.style.backgroundImage = 'url(\'/src/img/photo_2023-04-28_22-13-56.jpg\')';
+        document.body.style.backgroundImage = 'url(\'/logo19.jpg\')';
         document.body.style.backgroundSize = '50%';
         document.body.style.backgroundPosition = 'right';
         document.body.style.backgroundRepeat = 'no-repeat';
@@ -22,9 +22,7 @@ const Login = ({login})=>{
       }, []);
     return (
         <body className={s.contenedor}>
-            
                 <Form login={login}></Form>
-
         </body>
     );
 }
