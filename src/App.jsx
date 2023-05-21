@@ -45,8 +45,8 @@ function App() {
    const [access, setAccess] = useState(false);
   
    //? Credenciales de prueba
-   const user = "gabriel.leal.n1@gmail.com";
-   const password = "qwerty1!";
+   const user = "";
+   const password = "";
 
    //* Location
    const {pathname} = useLocation(); //* Es un objeto
