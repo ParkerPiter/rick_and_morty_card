@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+.contenedor{
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.contenedor:hover{
+    animation:jello-diagonal .9s linear both
+} @keyframes jello-diagonal{
+    0%{
+        transform:skew(0deg 0deg)
+    }30%{
+        transform:skew(25deg 25deg)
+    }40%{
+        transform:skew(-15deg,-15deg)
+    }50%{
+        transform:skew(15deg,15deg)
+    }65%{
+        transform:skew(-5deg,-5deg)
+    }75%{
+        transform:skew(5deg,5deg)
+    }100%{
+        transform:skew(0deg 0deg)
+    }
+}
+
+.button{
+    background-color: rgba(133, 255, 19, 0.863);
+    border: white 2px solid;
+    border-radius: 25px;
+}
+
+.carta{
+    width: 250px;
+    height: 600px;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 42px;
+    margin-left: 15px;
+}
+
+.info{
+    color: rgb(0, 0, 0);
+    font-family: 'Silkscreen', cursive;
+    text-align: start;
+    margin-top: 0px;
+    font-size: 13px;
+    line-height: 1;
+}
+
+.decoration{
+    text-decoration: none;
+}
+
+.info:hover{
+    color: rgba(91, 92, 90, 0.863);
+}
+
+.imagenesC{
+    margin: 0 0 0 0;
+    width: 300px;
+    height: 550px;
+}

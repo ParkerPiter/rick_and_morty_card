@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+.contenedor{
+    border-radius: 20px;
+    background-color: #9CFE45;
+    border: solid #EAE2D8 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between
+}
+
+.fav{
+    align-self: flex-start;
+    background-color: #9CFE45;
+    font-size: 20px;
+    border: none;
+}
+
+.button{
+    color: white;
+    align-self: flex-start;
+    background-color: red;
+    border: solid black 2px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0 0 5px;
+}
+
+.carta{
+    margin: 15px 0 0 0;
+    width: 250px;
+    height: 450px;
+    padding: 0 20px;
+}
+
+.info{
+    color: rgb(0, 0, 0);
+    font-family: 'Silkscreen', cursive;
+    text-align: start;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1;
+}
+
+
+
+.decoration{
+    text-decoration: none;
+}
+
+.info:hover{
+    color: gray;
+}
+
+.imagenes{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 0px 0 0 0;
+}
+
+.imagenes:hover{
+    animation:jello-diagonal .9s linear both
+} @keyframes jello-diagonal{
+    0%{
+        transform:skew(0deg 0deg)
+    }30%{
+        transform:skew(25deg 25deg)
+    }40%{
+        transform:skew(-15deg,-15deg)
+    }50%{
+        transform:skew(15deg,15deg)
+    }65%{
+        transform:skew(-5deg,-5deg)
+    }75%{
+        transform:skew(5deg,5deg)
+    }100%{
+        transform:skew(0deg 0deg)
+    }
+}
