@@ -46,7 +46,7 @@ export const Rick = {
          name: 'Earth (Replacement Dimension)',
          url: 'https://rickandmortyapi.com/api/location/20',
       },
-      image: 'https://i.postimg.cc/V0qbVnjy/1.png',
+      image: 'https://i.postimg.cc/brMHdRrv/1.png',
    },
    {
       id: 4,
