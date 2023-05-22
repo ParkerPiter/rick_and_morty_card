@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
@@ -40,7 +39,6 @@ function Detail(){
 
     );
 }
-=======
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
@@ -82,5 +80,4 @@ function Detail(){
 
     );
 }
->>>>>>> 9eca36f19ffdb6939d0c44bf7b97e3ec2bd0ac85
 export default Detail
