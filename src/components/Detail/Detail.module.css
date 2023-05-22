@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 .fondo{
-    background-color: gray;
+    margin: 15px 0 0 0;
+    width: 250px;
+    height: 450px;
+    padding: 0 20px;
+    border-radius: 20px;
+    background-color: #9CFE45;
+    border: solid #EAE2D8 10px;
+    color: rgb(0, 0, 0);
+}
+
+.info{
+    font-family: 'Silkscreen', cursive;
+    text-align: start;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.image{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 0px 0 0 0;
 }

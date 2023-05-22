@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import Cards from "../../components/Cards/Cards";
-import s from './Home.module.css';
+import Detail from "../../components/Detail/Detail";
+import s from './Detalles.module.css'
 
-const Home = ({characters, onClose})=>{
+const Detalles = () =>{
     useEffect(() => {
         document.body.style.backgroundImage = 'url(\'/wallpaperbetter.com_1920x1080 (1).jpg\')';
         document.body.style.backgroundSize = '100%';
@@ -18,13 +18,11 @@ const Home = ({characters, onClose})=>{
         };
       }, []);
     return(
-        <div className={s.container}>
-            <div className={s.contenedor}>
-                <h2 className={s.saludo}>Here you can search for the cards you like, try it.</h2>
-            </div>
-            <Cards characters={characters} onClose={onClose}/>
+        <div className={s.contenedor}>
+            <Detail></Detail>
         </div>
     );
+
 }
 
-export default Home;
+export default Detalles;

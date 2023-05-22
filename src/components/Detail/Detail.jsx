@@ -24,12 +24,12 @@ function Detail(){
             { //! Esta sintaxis es de ternario, pregunta si se cumple pasa a algo, sino : pasa a esto
                 character.name ?
                 (<>
-                    <h2>{character.name}</h2>
-                    <h2>{character.status}</h2>
-                    <h2>{character.gender}</h2>
-                    <h2>{character.species}</h2>
-                    <h2>{character.origin.name}</h2>
-                    <img src={character.image}/>
+                    <h2 className={s.info} >{character.name}</h2>
+                    <h2 className={s.info} >{character.status}</h2>
+                    <h2 className={s.info} >{character.gender}</h2>
+                    <h2 className={s.info} >{character.species}</h2>
+                    <h2 className={s.info} >{character.origin.name}</h2>
+                    <img src={character.image} className={s.image}/>
                 </>)
                 : setTimeout(()=>{
                     <h3>Loading...</h3>

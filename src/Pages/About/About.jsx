@@ -3,7 +3,7 @@ import s from './About.module.css';
 
 const About = () =>{
     useEffect(() => {
-        document.body.style.backgroundImage = 'url(\'/public/wallpaperbetter.com_1920x1080 (1).jpg\')';
+        document.body.style.backgroundImage = 'url(\'/wallpaperbetter.com_1920x1080 (1).jpg\')';
         document.body.style.backgroundSize = '100%';
         document.body.style.backgroundPosition = 'center';
         document.body.style.backgroundRepeat = 'no-repeat';

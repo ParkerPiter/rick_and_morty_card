@@ -2,7 +2,7 @@ import s from'./App.module.css';
 import Home from './Pages/Home/Home';
 import Nav from './components/Nav/Nav';
 import About from './Pages/About/About';
-import Detail from './components/Detail/Detail';
+import Detalles from './Pages/Detalles/Detalles';
 import Login from './Pages/Login/Login';
 import { useEffect, useState } from 'react';
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
@@ -45,8 +45,8 @@ function App() {
    const [access, setAccess] = useState(false);
   
    //? Credenciales de prueba
-   const user = "gabriel.leal.n1@gmail.com";
-   const password = "qwerty1!";
+   const user = "";
+   const password = "";
 
    //* Location
    const {pathname} = useLocation(); //* Es un objeto
@@ -76,7 +76,7 @@ function App() {
             <Route path='/' element={<Login login={login} />}></Route>
             <Route path='/home' element={<Home characters={characters} onClose={onClose}/>}></Route>
             <Route path='/about' element={<About />}></Route>
-            <Route path='/detail/:detailId' element={<Detail />}></Route>
+            <Route path='/detail/:detailId' element={<Detalles/>}></Route>
             <Route path='/cartas' element={<Mostrar personajes={personajes}/>}></Route>
          </Routes> 
       </div>
