@@ -71,6 +71,41 @@ export const Rick = {
          url: 'https://rickandmortyapi.com/api/location/20',
       },
       image: 'https://i.postimg.cc/KYyfnQNk/3.png',
+   },{
+      id: 6,
+      name: 'Scary Terry',
+      status: 'Alive',
+      species: 'Mythological Creature',
+      gender: 'Male',
+      origin: {
+         name: "Mr. Goldenfold's dream",
+         url: 'https://rickandmortyapi.com/api/location/306',
+      },
+      image: 'https://i.postimg.cc/vZx6gyXs/10.png',
+   },
+   {
+      id: 7,
+      name: 'Birdperson',
+      status: 'Alive',
+      species: 'Alien',
+      gender: 'Male',
+      origin: {
+         name: 'Bird World',
+         url: 'https://rickandmortyapi.com/api/location/47',
+      },
+      image: 'https://i.postimg.cc/fyW9J0q2/8.png',
+   },
+   {
+      id: 8,
+      name: 'Mr. Poopybutthole',
+      status: 'Alive',
+      species: 'Poopybutthole',
+      gender: 'Male',
+      origin: {
+         name: 'unknown',
+         url: 'https://rickandmortyapi.com/api/location/244',
+      },
+      image: 'https://i.postimg.cc/hP5dtvLs/9.png',
    },
 ];
 export default personajes;
