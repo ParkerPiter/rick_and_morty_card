@@ -22,7 +22,7 @@ export const Rick = {
          name: 'Earth (C-137)',
          url: 'https://rickandmortyapi.com/api/location/1',
       },
-      image: '../public/5.png',
+      image: 'https://i.postimg.cc/zVNhR2rq/5.png',
    },
    {
       id: 2,
