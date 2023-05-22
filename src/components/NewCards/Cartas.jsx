@@ -1,11 +1,11 @@
 import Carta from '../NewCard/Carta.jsx';
-import style from '../Cards/Cards.module.css'
+import s from '../NewCards/Cartas.module.css'
 
 //!Debemos traer los personajes de characters que son exportados
 function Cartas({personajes, onClose}) {
    // const {characters} = props;
    return( 
-        <div className={style.contenedor}>
+        <div className={s.contenedor}>
             {
                 personajes.map(({name, species, gender, image, status, origin, id}) =>{
                 return(

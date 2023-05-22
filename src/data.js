@@ -8,7 +8,7 @@ export const Rick = {
       name: 'Earth (C-137)',
       url: 'https://rickandmortyapi.com/api/location/1',
    },
-   image: 'https://i.imgur.com/keMFsMB.png',
+   image: 'https://www.mediafire.com/view/6mj12qd378ehizp/1.png/file',
 };
 
  const personajes = [
