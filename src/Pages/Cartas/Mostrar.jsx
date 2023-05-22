@@ -1,6 +1,7 @@
+
 import { useEffect } from "react";
 import Cartas from "../../components/NewCards/Cartas";
-import s from './Mostrar.module.css'
+import s from './Mostrar.module.css';
 
 const Mostrar = ({personajes}) =>{
     useEffect(() => {
