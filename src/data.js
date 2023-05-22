@@ -22,7 +22,7 @@ export const Rick = {
          name: 'Earth (C-137)',
          url: 'https://rickandmortyapi.com/api/location/1',
       },
-      image: 'https://i.postimg.cc/zVNhR2rq/5.png',
+      image: 'https://i.postimg.cc/KvkDwCp3/5.png',
    },
    {
       id: 2,
@@ -34,7 +34,7 @@ export const Rick = {
          name: 'unknown',
          url: '',
       },
-      image: 'https://i.postimg.cc/6TnRqJFH/2.png',
+      image: 'https://i.postimg.cc/661hHBcN/2.png',
    },
    {
       id: 3,
@@ -58,7 +58,7 @@ export const Rick = {
          name: 'Earth (Replacement Dimension)',
          url: 'https://rickandmortyapi.com/api/location/20',
       },
-      image: 'https://i.postimg.cc/bSctg3SH/4.png',
+      image: 'https://i.postimg.cc/hvh1SYSw-/4.png',
    },
    {
       id: 5,
@@ -70,7 +70,7 @@ export const Rick = {
          name: 'Earth (Replacement Dimension)',
          url: 'https://rickandmortyapi.com/api/location/20',
       },
-      image: 'https://i.postimg.cc/rDQ5T17M/3.png',
+      image: 'https://i.postimg.cc/KYyfnQNk/3.png',
    },
 ];
 export default personajes;
