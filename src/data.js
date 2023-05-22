@@ -22,7 +22,7 @@ export const Rick = {
          name: 'Earth (C-137)',
          url: 'https://rickandmortyapi.com/api/location/1',
       },
-      image: 'https://previews.dropbox.com/p/thumb/AB7MIg7fVQ07EGkC_pxybpvNV3OB40zYa6Nf08ucRity2kn-BEmrMPQC6cvPUyujAQsv-NRlDUIKDwQPVAiXfYzVOJLROn4LxdHk3hXWrgq0CUC7Y2BOjyEbXOZ7v9J_oDuBDsjHkfaboI__ZSLWtbrpr5CBFj_AHyLMd9MDi0hzwhhuK3MZkYKw7hSmfyOV1NgFhIJh0z6yKX0Ppq7-CFhpxqJZMOiH8TJWx6SbXZbLbXasUWcF0tREs16olraD9mF7HfcKHw_nA92k0Jg8FpcxJOU9PCb8_g3GGm8tqsrXXwg5MQzOXWqMc12zjuYrE73neLLgFtU8zm2tkg4tZ4LcANY5Ee9jcZ1AqRNBonds5nKPwN7RM0xHLnZ8FTTyHpQ/p.png',
+      image: '../public/5.png',
    },
    {
       id: 2,
