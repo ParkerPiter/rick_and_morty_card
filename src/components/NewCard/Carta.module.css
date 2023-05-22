@@ -7,24 +7,20 @@
     position: relative;
 }
 
-.contenedor:hover{
-    animation:jello-diagonal .9s linear both
-} @keyframes jello-diagonal{
-    0%{
-        transform:skew(0deg 0deg)
-    }30%{
-        transform:skew(25deg 25deg)
-    }40%{
-        transform:skew(-15deg,-15deg)
-    }50%{
-        transform:skew(15deg,15deg)
-    }65%{
-        transform:skew(-5deg,-5deg)
-    }75%{
-        transform:skew(5deg,5deg)
-    }100%{
-        transform:skew(0deg 0deg)
+@keyframes floating {
+    0% {
+      transform: translateY(0px);
     }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  .contenedor {
+    animation: floating 4s ease-in-out infinite;
 }
 
 .button{
