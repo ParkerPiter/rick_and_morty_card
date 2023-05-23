@@ -23,21 +23,13 @@
     animation: floating 4s ease-in-out infinite;
 }
 
-.button{
-    background-color: rgba(133, 255, 19, 0.863);
-    border: white 2px solid;
-    border-radius: 25px;
-}
-
 .carta{
-    width: 250px;
+    width: 215px;
     height: 600px;
-    padding: 0 20px;
+    padding: 0 15px;
     position: absolute;
-    top: 0;
-    left: 0;
     margin-top: 42px;
-    margin-left: 15px;
+    margin-left: 18px;
 }
 
 .info{
@@ -45,7 +37,7 @@
     font-family: 'Silkscreen', cursive;
     text-align: start;
     margin-top: 0px;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1;
 }
 
@@ -59,6 +51,6 @@
 
 .imagenesC{
     margin: 0 0 0 0;
-    width: 300px;
-    height: 550px;
+    width: 275px;
+    height: 525px;
 }
