@@ -26,7 +26,7 @@ function App() {
              // setCharacters([...charaters, data])
             }
             else{
-             alert("No hay personaje con ese nombre");
+             alert("The character you are looking for is already showing or does not exist.");
             }
        });
     };
