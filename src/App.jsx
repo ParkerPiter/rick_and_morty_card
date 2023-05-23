@@ -44,23 +44,14 @@ function App() {
     //* Hook para storagelocal
    const [access, setAccess] = useState(false);
   
-   //? Credenciales de prueba
-   const user = "";
-   const password = "";
-
    //* Location
    const {pathname} = useLocation(); //* Es un objeto
 
    //! Funcion Login
-   const login = (userData)=>{
-      if(userData.user === user && userData.password === password){
+const login = (userData)=>{
          setAccess(true);
          navigate("/home");
-      }
-      else{
-         alert("Credenciales incorrectas")
-      }
-   }
+}
     //* Usamos este hook para luego de logear cambiar de pagina
     useEffect(()=>{
       !access && navigate("/")
