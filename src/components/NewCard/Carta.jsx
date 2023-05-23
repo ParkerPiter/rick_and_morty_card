@@ -8,10 +8,10 @@ function Carta({name, species, gender, image, status, origin, id}) {
     <div>
       <div className={s.contenedor}>
         <div className={s.carta}>
-            <h2 className={s.info}>Species:{species}</h2>
-            <h2 className={s.info}>Gender:{gender}</h2>
-            <h2 className={s.info}>Status:{status}</h2>
-            <h2 className={`${s.info} ${s.origin}`}>Origin:{origin}</h2>
+            <h2 className={s.info}>Species: {species}</h2>
+            <h2 className={s.info}>Gender: {gender}</h2>
+            <h2 className={s.info}>Status: {status}</h2>
+            <h2 className={`${s.info} ${s.origin}`}>Origin: {origin}</h2>
         </div>
         <img src={image} alt='' className={s.imagenesC} /> 
       </div>
