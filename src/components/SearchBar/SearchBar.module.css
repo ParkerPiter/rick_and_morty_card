@@ -3,12 +3,12 @@
     text-align: center;
     align-items: center;
     border: none;
-    padding-left: 15px;
+    padding: 5px 15px 5px 0 ;
     border-radius: 15px 0 0 15px;
 }
 
 .buscador, ::placeholder{
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.411);
 }
 
 .icon{
@@ -24,6 +24,7 @@
     border: none;
     color: black;
     border-radius: 0 15px 15px 0;
+    padding: 5px 15px 5px 0 ;
 }
 
 .separador{
