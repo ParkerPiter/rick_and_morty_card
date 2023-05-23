@@ -4,14 +4,28 @@
 .fondo{
     margin: 15px 0 0 0;
     width: 250px;
-    height: 450px;
+    height: 500px;
     padding: 0 20px;
     border-radius: 20px;
     background-color: #9CFE45;
     border: solid #EAE2D8 10px;
     color: rgb(0, 0, 0);
 }
-
+@keyframes floating {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+.fondo {
+    animation: floating 4s ease-in-out infinite;
+}
 .info{
     font-family: 'Silkscreen', cursive;
     text-align: start;
