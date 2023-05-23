@@ -4,6 +4,7 @@
     border-radius: 20px;
     background-color: #9CFE45;
     border: solid #EAE2D8 10px;
+    width: 250px;
 }
 
 .container{
@@ -31,8 +32,8 @@
 
 .carta{
     margin: 15px 0 0 0;
-    width: 250px;
-    height: 450px;
+    width: 200px;
+    height: 425px;
     padding: 0 20px;
 }
 
@@ -41,7 +42,7 @@
     font-family: 'Silkscreen', cursive;
     text-align: start;
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1;
 }
 
@@ -56,7 +57,8 @@
 }
 
 .imagenes{
-    width: 290px;
-    height: 250px;
+    margin-left: -5px;
+    width: 220px;
+    height: 220px;
     border-radius: 20px;
 }
