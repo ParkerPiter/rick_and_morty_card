@@ -21,7 +21,7 @@ const Home = ({characters, onClose})=>{
     return(
         <div className={s.container}>
             <div className={s.contenedor}>
-                <h2 className={s.saludo}>Here you can search for the cards you like with a number, try it.</h2>
+                <h2 className={s.saludo}>Here you can search for the cards you like with a number and then press the "+" button on the right, try it..</h2>
             </div>
             <Cards characters={characters} onClose={onClose}/>
         </div>
