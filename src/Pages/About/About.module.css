@@ -13,7 +13,7 @@
 }
 
 .titulo{
-    font-size: 3.8rem;
+    font-size: 3.2rem;
 }
 
 .right{
@@ -26,15 +26,15 @@
 
 .name{
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 1.9em;
 }
 
 .data{
-    font-size: 2.2em;
+    font-size: 1.6em;
 }
 
 .correo{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .contenedor{
@@ -44,8 +44,9 @@
 
 .ty{
     text-align: left;
+    margin-top: 100px;
     margin-left: 30px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 
