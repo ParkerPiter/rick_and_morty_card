@@ -20,10 +20,10 @@ const Mostrar = ({personajes}) =>{
       }, []);
     return(
         <div>
-            <div className={s.contenedor}>
-                <h2 className={s.saludo}>These special cards were designed by Crismar Chaparro</h2>
-            </div>
             <Cartas personajes={personajes}/>
+            <div className={s.contenedor}>
+                <h2 className={s.saludo}>Special cards design by Crismar Chaparro</h2>
+            </div>
         </div>
     );
 
