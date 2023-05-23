@@ -13,7 +13,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin: 0 0 0 0;
+    font-size: 10px;
 }
 
 .nav{
@@ -23,14 +23,14 @@
 
 .boton{
     background-color: #3AB820;
-    padding: 5px 60px;
-    border-radius: 10px;
+    padding: 0.5px  60px 5px 60px;
+    border-radius: 25px;
 }
 
 .botonE{
     background-color: red;
-    padding: 5px 40px ;
-    border-radius: 10px;
+    padding: 0.5px 40px  5px 40px;
+    border-radius: 25px;
 }
 
 .boton:hover{
